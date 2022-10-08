@@ -1,0 +1,84 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1Ea3lPREF3TWpNMU5Wb1hEVE15TURreU5UQXdNak0xTlZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTEc0Clh1cWNEdWliNUZDZlhxclplUXlQa0dTRWRLQ2F2MHlSNzZtWUF4YU43VzgrTTlmUWtaQk5KbVMzOW13bTk4OVQKTXg5TEhUb3FqTnkzYTNmaE9VTm1RK21nYTd5RFJzOS9FQnZ4cEgyMUd4d0FpQlQ1UHhpQ1pxQ004WnkrSnJ3cApONGpld3JwWWVEOGt5L1l0QzhJTWJxY1ZoOVJlUUhHMnE3dmJpeUVVWUJEd0E5SEJFN09mN2ordUY2TDNFdVFnCmQrc1RpZEdMb0l6K015Z1NQbHVCRGxYbzQ1MjRCcHFhTDlQaUUrUkVORkowbitSUVV0YnJIeDdzL0ZDSmYxVm4KcU5VOXJ0bEV6RlBCKy9ianlPemNWNnhPOVBMZk5XbTdZcXFJZmpyemtTR1VYRnZuaGl3TzVseVNncXhicVBoRQpWeDhab3VhVXcyRWRMV1dzWFVzQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZBSnpMYkhwcE9SaHErRlhldkVpR0lMNGFudGtNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSGpYRU5BWXIxQzNoK3E4cEJkZQozL0MyUU5QYnF6dDNiTi84UkVTRC9XVHJ0ZEt3ZGtWbGcrZkdwb2tpQ0EvV3BjMUZESHl4cHF0WWNyOTlRMTVzCnRFcFl0ZHEwaTZoL0ZiNmM2VUlUc3c1K2hwY3N6YW9nYVZ3Rk0zSEJwalQ3YVh3TmI2RlkvcHZoNm13dFlCK1cKRHpiS0NrSFBUbXZ1NFEzcnJNQm1YTzhzVHg3MTdWZDRJdk5Ha1ZkREFzZ2tnZ2Q4YytjU0N2N2FHZHJoeVNuNwpDOVUrdERuUFRxU29wV2hYNWczbk45dGpGSm9ZQTUrcXhMQTVYREpGbmtaT2swUmpaV1g1cXNsUTVPNi9pbUdICmtuVnBldWVtb1BkbG55MkRRWlFKVEtYdjdLL1IxTXlka09TZmlLa1hlMmZLMHFYYzh4Y01xOWhIWGlDRnJrNmsKaU5FPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://7E8D0F91D2F82C4F13CE5D9201058DAC.gr7.us-east-1.eks.amazonaws.com
+  name: eksctl-demo.us-east-1.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1UQXdOVEE1TWpjd00xb1hEVE15TVRBd01qQTVNamN3TTFvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTkRZCk9TYkRZQkFiT0FGRlpjMFJ2TXJiQkdyRURPcmZnVHlIOTAwT2FBc0ErdVcyRHBHNU1hYlRIeGxiTnJ0WlZ3ZjcKcXBacWg3RmNjanRUdWxrb2pCU1A3Y3NyR0JoQ2QxSnVDTDhGaiszeWFqWU5GTWt4N3B2UVFBZGtXWEVyejZPRApkeVFxNWFLYVJzVmVuTTMrSzRwS3ZOT0FZZGJRN1pRdmRYZDJIQjR5cHJxRU9hTGFrOTlSWm10OWZJS3ROZVlLCmYrNGxOamRvQXBrTGhKRUVlcmVSY2tVbGhNTkRrWmtHZmhFN2JBa0xvSjdyaW9IYldINk5BVlFXZytVcWd1OWIKc2ZqWDMvdHVpL2tTME1wRk1JL0dFUG1oT3VjTDNHcXlrbHJFVE1TVjB4UkVNcmVEYWRqZHVhNU04SHZnVmc5WgpJRFpaWW5IeXFneVpPZ09XZU5FQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZGd041N1RudGgvaVdzL3lLbWNvT3h6TW9yUldNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSVlOVWF4akw0VEs0d2FNOU9HWQpSbHhXalNBSFVhOG5xRG43bVpTT2JsZHlxc3d0V1VuOFNibUFwd2pWTnEwZVJDcUtKaUhabDdKTTNVNFJ2dTJSCnhIc0hOWDEzSFVJbnVUTTBtVElQOUdjSHlVS1l1cmUrc1RIR0NYQ2VFdEFhR3ZoMWNpakFxMU5yc2dHMUNqcTMKRnFsZUFDMVRhMTBnRjloQUtTanBvWlFtcjNHMVcrQzF1T3VJYVVkZDJwK0pDQUwrYld6OFdXbEtYenI5VTNJeQp5SlNhLzB2Z1ZiUitxa2JiSzRhTVlxS1M3WnNGSEs5aFBJZFlnbUUyTzJnV0VEMzVZQ1BzQ2N0bnYyNWhXT3QrCkM2azRSS0xPd3l6V09zQXV0cXh6WURLaXQ1cmhId2FFYkJURVdWRTkrTUNySkdLOUQzVXZzc0xud0lIMS9lcmoKRWNVPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://83820FC7B2FDFEFDF7FC022F65BD520D.yl4.us-west-1.eks.amazonaws.com
+  name: simple-jwt-api.us-west-1.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1UQXdOVEUxTVRrek0xb1hEVE15TVRBd01qRTFNVGt6TTFvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBSmh3CmZ2T1pIemVLckZiYkpsT2lqWXRScUdOdVJkbnBPRTE3K21yWDVkV1Y5Y0NxM1lpQWVndGJXaCs4aWprZDVCSkcKUHNUemI1OHd3ZGk2RzJJbmFRTnZUZVhPcHVOcmJQRzNLblUrazZuUytIS0IvdVZMaUR5TTZCYkZDWUhXdUM5RApVUG9LUkZiTGdtODQxL1lzdGlhT3J2TCtjY3ptYnFxZkU2eTdUUlR6bWY1RFI4Rmt3UkRjM0M4Q1FyUEU1MURuClNxb2tIcE1DUG9oUW1kOWdFaHJXUHo3bzNJTThVMFVOZzBYbzdwMmtvNEdLaERKYUlJRWllUXdiYnd4VWIyRW0KcjdVbmFlWmhHUW5GVjRyUjdBRHB5K1VvYUd3WkFGQ0huYkJTOEM1MENHN1piV0t5a3FVZm13WHh3UXRmZGJXbgpWR1NxckZPeURpazZ3eUF4c29FQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZGZ0hpSUpzQURtL2s5Si8wTE5tUVZkRWF2MmRNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBRldIMkZ1TjlMdmE4QUdlYm9qWQpUMVJHQnFBTXBrcUh0NlVMcXVuYkZtMWxmZVNQelZIaHZOQlVqbStKTGVUbTZRazdwemNxNXl1NHM4RGs3d3VrCjJ6QUIySlhNL3IyNVdRUlMwNTBGNGRHWFV2SFZEZk5OWVlEekJoSHpBSGtyRW1PWDNtZlBlaGNsclczWURYbnoKSkJUMFBEM1c4cW4xQ2laS2RoSXMwNU9kczBNdXMyakdhNmpXQWx4aUUwb0VGTzhRNjAxU3R0TGVtTWRnZjNscQovR2NtbnY1bFdhTk9nRGZNZllRVHJFV1QvdjQ5OXdkaWpvbUdYUnUyMmhBVHJJSXhQY0IvWVBSN0V6cjZ5WDlnCkNtWnMybG1melZlRXVFZFU2enEyT1FsUC9CbVlDdnY0TERPa2JreHp0bDVUeFlxTHAxbmJ1T0FsbHN1OGVCMmMKN2xJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://0647FC6F637A7F3CEEF80EE9D9E41287.gr7.us-east-1.eks.amazonaws.com
+  name: simple-jwt-apii.us-east-1.eksctl.io
+contexts:
+- context:
+    cluster: simple-jwt-api.us-west-1.eksctl.io
+    user: Admin@simple-jwt-api.us-west-1.eksctl.io
+  name: Admin@simple-jwt-api.us-west-1.eksctl.io
+- context:
+    cluster: simple-jwt-apii.us-east-1.eksctl.io
+    user: Admin@simple-jwt-apii.us-east-1.eksctl.io
+  name: Admin@simple-jwt-apii.us-east-1.eksctl.io
+- context:
+    cluster: eksctl-demo.us-east-1.eksctl.io
+    user: kriz@eksctl-demo.us-east-1.eksctl.io
+  name: kriz@eksctl-demo.us-east-1.eksctl.io
+current-context: Admin@simple-jwt-apii.us-east-1.eksctl.io
+kind: Config
+preferences: {}
+users:
+- name: Admin@simple-jwt-api.us-west-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --cluster-name
+      - simple-jwt-api
+      - --region
+      - us-west-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: Admin@simple-jwt-apii.us-east-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --cluster-name
+      - simple-jwt-apii
+      - --region
+      - us-east-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: kriz@eksctl-demo.us-east-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --cluster-name
+      - eksctl-demo
+      - --region
+      - us-east-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      - name: AWS_PROFILE
+        value: kriz_profile
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
